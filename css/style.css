@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Raleway";
-  src: url("../../fonts/Raleway-Regular.eot");
-  src: local("Raleway"), local("Raleway-Regular"), url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway-Regular.woff") format("woff"), url("../../fonts/Raleway-Regular.ttf") format("truetype");
+  src: url("../fonts/Raleway-Regular.eot");
+  src: local("Raleway"), local("Raleway-Regular"), url("Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Raleway";
-  src: url("../../fonts/Raleway-Bold.eot");
-  src: local("Raleway Bold"), local("Raleway-Bold"), url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Raleway-Bold.woff") format("woff"), url("../../fonts/Raleway-Bold.ttf") format("truetype");
+  src: url("../fonts/Raleway-Bold.eot");
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -27,7 +27,7 @@ a {
 }
 
 .header {
-  background: url("../../img/bg-header.webp") 50% 50%/cover no-repeat;
+  background: url("../img/bg-header.webp") 50% 50%/cover no-repeat;
   width: 100%;
 }
 
@@ -143,7 +143,7 @@ a {
   transition: 0.3s;
 }
 .form_header button:before {
-  content: url("../../img/little_ship.png");
+  content: url("../img/little_ship.png");
   margin-right: 10px;
 }
 .form_header button:hover {
@@ -331,7 +331,7 @@ a {
   padding: 10px 15px;
 }
 .red_label p:before {
-  content: url("../../img/little_ship.png");
+  content: url("../img/little_ship.png");
   margin-right: 10px;
 }
 
