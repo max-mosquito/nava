@@ -1,0 +1,12 @@
+@media (max-width: 1200px){
+	.row2{
+		justify-content: center;
+		margin: 0;
+	}
+	.x2 {
+		flex:0 1 calc(100% - 30px);
+	}
+	.x1 {
+		flex:0 1 calc(50% - 30px);
+	}
+}

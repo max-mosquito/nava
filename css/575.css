@@ -1,0 +1,87 @@
+@media (max-width: 575px){
+	.header_opas {
+		padding-bottom: 100px;
+	}
+	.header_top {
+		padding-bottom: 50px;
+	}
+	.header_title p {
+		padding-bottom: 30px;
+	}
+	.summ_info {
+		transform: translate(0, 0);
+	}
+	.explore_title-text {
+		padding-bottom: 10px;
+	}
+	.red_label {
+		top: 5px;
+		left: 15px;
+	}
+	.red_label p {
+		padding: 5px;
+	}
+	.bottom_title {
+		bottom: 5px;
+		left: 15px;
+	}
+	.x2 {
+		height: 200px;
+	}
+	.x1 {
+		flex:0 0 calc(100% - 30px);
+		height: 200px;
+	}
+	.boats_wrap {
+		padding: 30px 15px;
+	}
+	.boats_title
+	{
+		padding-bottom: 5px;
+	}
+	.boats_title h3 {
+		padding-bottom: 10px;
+	}
+	.boat {
+		height: 200px;
+	}
+	.boat_red_label {
+		top: 5px;
+		left: 15px;
+	}
+	.boat_red_label p {
+		padding: 5px;
+	}
+	.boats_btn {
+		padding-top: 10px;
+	}
+	.footer_wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+		padding: 25px 15px;
+	}
+	.footer_wrap ul {
+		display: none;
+	}
+	form {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.footer form input {
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.footer_form form button {
+		border-radius: 5px;
+	}
+	.soc {
+		text-align: center;
+	}
+}

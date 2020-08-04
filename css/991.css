@@ -1,0 +1,22 @@
+@media (max-width: 991px){
+	.top_menu ul li{
+		margin-right: 35px;
+	}
+	.footer_wrap {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.subs {
+		order: 2;
+		flex: 0 1 70%;
+	}
+	.footer_loc,
+	.footer_featur,
+	.contact {
+		order: 1;
+		flex: 0 1 calc(33% - 30px);
+	}
+}
